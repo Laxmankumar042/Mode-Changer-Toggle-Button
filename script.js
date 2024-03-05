@@ -13,7 +13,7 @@ let box = document.querySelector(".box");
           heading.style.color = "white";
           heading.innerText = "DARK MODE";
           para.style.color = "white";
-          image.src = "moon.png";
+          image.src = "/images/moon.png";
           console.log("button is clicked");
           btn = "checked";
         } else {
@@ -24,7 +24,7 @@ let box = document.querySelector(".box");
           heading.style.color = "black";
           heading.innerText = "LIGHT MODE";
           para.style.color = "black";
-          image.src = "sun.png";
+          image.src = "/images/sun.png";
           console.log("button is clicked");
           btn = "notChecked";
         }
